@@ -25,13 +25,14 @@ I succeeded:
 
 > The duration of our passions is no more dependant upon us than the duration of our life.
 
-<iframe
+<video
   src="{{site.url}}/assets/HermitageMikuReadsMaxim5.mp4"
   width="512"
   height="512"
-  frameborder="0"
-  title="Hatsune Miku reading Maxim #5 at the Hermitage">
-</iframe>
+  preload='none'
+  controls>
+Your browser does not support the video element
+</video>
 
 My workflow:
 
@@ -39,7 +40,7 @@ My workflow:
 2. I don't have an LLVM running locally (yet), I just made do with ["Maxims"](https://www.gutenberg.org/files/9105/9105-h/9105-h.htm) - a collection of 500 or so aphorisms left to us by Francois Duc De La Rochefoucauld.
 They have a winning combination of being brief and being enjoyable to read and reflect on.
 3. Create a voice AI with [TorToiSe](https://github.com/neonbjb/tortoise-tts).
-In order to lean into spoken word synthesis, I did not build my training data from any living person't recordings, but took advantage of [SynthV Karin](https://www.ah-soft.com/synth-v/karin/)
+In order to lean into spoken word synthesis, I did not build my training data from any living person's recordings, but took advantage of [SynthV Karin](https://www.ah-soft.com/synth-v/karin/)
 4. Used [SadTalker](https://github.com/OpenTalker/SadTalker) for lipsync and speaking animation
 
 My hope here is to share the details on setting up this stack locally and my learnings in my future posts, so please stay tuned for Part 2, which will be on local setup and iterative development.
