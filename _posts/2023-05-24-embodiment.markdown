@@ -17,7 +17,7 @@ Do check it out - click in to navigate to the full tweet for the video:
 In English, this was the author's workflow:
 1. Generate AI image with WebUI
 2. Generate text with ChatGPT (An explanation about sythetic voice AI)
-3. Create a voice AI with COEIROINK and synethesize voice from text
+3. Create a voice AI with COEIROINK and synthesize voice from text
 4. Use D-ID for lipsync and speaking animation
 
 I have a capable graphics card, so I wondered if I could achieve something similar, running locally, for free.
