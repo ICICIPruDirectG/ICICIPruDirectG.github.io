@@ -47,7 +47,7 @@ and in reality we should distrust them even when they appear most trustworthy.</
 ### Installation
  
 I am running Windows 11, Powershell, pyenv w/3.10.5.
-What this means for AI Voice Cleanup is that I had to comment out all the venv commands and let it rely on pyenv managed python:
+What this means for AI Voice Cloning is that I had to comment out all the venv commands and let it rely on pyenv managed python:
 
 in `setup-cuda.bat` - a script you should run after cloning the repo
 ```
@@ -111,7 +111,7 @@ It's possible because in my layman's understanding, this technology relies on ma
 > This technology adds a fun new dimension to the usual subs vs dubs meta, doesn't it?
 I want you to share my excitement here - listen:
 I wager it would go big because it would open new markets for Hollywood -
-it allows the (filthy illiterate uncultured) original audio disrespecteres to have a much better experience with foreign media.
+it allows the (filthy illiterate uncultured) original audio disrespecters to have a much better experience with foreign media.
 And then it's inevitable that these models, trained on the voices of the stars, would be shared with the whole world by our [pirate friends](https://www.youtube.com/watch?v=zeIjmvZZ_SQ).
 Can't wait for an explosion of creativity that would follow!
 
@@ -122,7 +122,7 @@ Now that we have the samples, we need to create our first voice.
 1. Open up AI Voice Cloning WebUI in your browser
 2. Navigate to the Utilities tab -> Import/Analyze
 3. Drop your samples in and give your new voice a name before clicking "Import Voice"
-4. When it finishes, navigate to the Ganerate tab and click "Refresh Voice List" - your new voice should now appear in the "Voice" dropdown
+4. When it finishes, navigate to the Generate tab and click "Refresh Voice List" - your new voice should now appear in the "Voice" dropdown
 
 That's it - you are now ready to generate.
 If you need some text, I suggest ["Maxims"](https://www.gutenberg.org/files/9105/9105-h/9105-h.htm) - a collection of 500 or so aphorisms left to us by Francois Duc De La Rochefoucauld.
@@ -136,7 +136,7 @@ Here is the [AI Voice Cloning reference](https://git.ecker.tech/mrq/ai-voice-clo
 As of the time of writing, it's a bit disorganized, so I encourage you to read it beginning to end to make sure you can understand the whole process.
 The order of tabs in the "Training" UI matches the order in which you will need to proceed:
 
-1. "Prepare Dataset" - taking your vocie samples, splitting and transcribing them
+1. "Prepare Dataset" - taking your voice samples, splitting and transcribing them
 2. "Generate Configuration" - entering the training parameters
 3. "Run Training" - train and monitor metrics
 
