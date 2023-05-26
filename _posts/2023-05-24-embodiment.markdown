@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Embodiment - Part 1"
-date: 2023-05-24 00:00:00 -0000
-categories: Embodiment D-ID TorToiSe StableDiffusion SadTalker
+date: 2023-05-25 00:00:00 -0000
+categories: Embodiment D-ID TorToiSe ai-voice-cloning StableDiffusion SadTalker
 ---
 
 # Embodiment - Part 1
@@ -26,7 +26,7 @@ I succeeded:
 > The duration of our passions is no more dependant upon us than the duration of our life.
 
 <video
-  src="{{site.url}}/assets/HermitageMikuReadsMaxim5.mp4"
+  src="{{site.url}}/assets/YYYP_Karin-HermitageMikuReads-Maxim5.mp4"
   width="512"
   height="512"
   preload='none'
@@ -39,7 +39,7 @@ My workflow:
 1. Generate AI image with local [AUTOMATIC1111 WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 2. I don't have an LLVM running locally (yet), I just made do with ["Maxims"](https://www.gutenberg.org/files/9105/9105-h/9105-h.htm) - a collection of 500 or so aphorisms left to us by Francois Duc De La Rochefoucauld.
 They have a winning combination of being brief and being enjoyable to read and reflect on.
-3. Create a voice AI with [TorToiSe](https://github.com/neonbjb/tortoise-tts).
+3. Create a voice AI with [TorToiSe](https://git.ecker.tech/mrq/tortoise-tts).
 In order to lean into spoken word synthesis, I did not build my training data from any living person's recordings, but took advantage of [SynthV Karin](https://www.ah-soft.com/synth-v/karin/)
 4. Used [SadTalker](https://github.com/OpenTalker/SadTalker) for lipsync and speaking animation
 
