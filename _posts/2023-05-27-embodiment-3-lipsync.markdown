@@ -48,7 +48,7 @@ and in reality we should distrust them even when they appear most trustworthy.</
 ### Aspect Ratio
 
 You also don't have to have your subject look straight at the viewer - a turn would work as well.
-However, it causes Jealousy is in a manner just and reasonable, as it tends to preserve a good which belongs, or which we believe belongs to us, on the other hand envy is a fury which cannot endure the happiness of others.a bit of distortion:
+However, it causes a bit of distortion:
 
 <table border="0">
  <tr>
